@@ -1,84 +1,84 @@
 .recipes {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    line-height: 1.4;
-    margin: 0;
-    padding: 1em 0.5em;
-    color: #222;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 1em 0.5em;
+  color: #222;
 
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 
-    resize: both;
-    overflow: auto;
+  resize: both;
+  overflow: auto;
 }
 
 .rg-header {
-    margin-bottom: 1em;
-    text-align: left;
+  margin-bottom: 1em;
+  text-align: left;
 }
 
-.rg-header>* {
-    display: block;
+.rg-header > * {
+  display: block;
 }
 
 .rg-source {
-    margin: 0;
-    font-size: 0.75em;
-    text-align: right;
+  margin: 0;
+  font-size: 0.75em;
+  text-align: right;
 }
 
 .rg-source .pre-colon {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .rg-source .post-colon {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* table */
 table.recipe {
-    width: 80%;
-    margin-bottom: 0.5em;
-    font-size: 1em;
-    border-collapse: collapse;
-    border-spacing: 0;
+  width: 80%;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 table.recipe tr {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-align: left;
-    color: #333;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  color: #333;
 }
 
 table.recipe thead {
-    border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
 }
 
 table.recipe tr {
-    border-bottom: 1px solid #ddd;
-    color: #222;
+  border-bottom: 1px solid #ddd;
+  color: #222;
 }
 
 table.recipe th {
-    font-weight: bold;
-    padding: 0.35em;
-    font-size: 0.9em;
+  font-weight: bold;
+  padding: 0.35em;
+  font-size: 0.9em;
 }
 
 table.recipe td {
-    padding: 0.35em;
-    font-size: 0.9em;
+  padding: 0.35em;
+  font-size: 0.9em;
 }
 
 table.recipe th.number,
 td.number {
-    text-align: right;
+  text-align: right;
 }
