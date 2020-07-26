@@ -1,86 +1,91 @@
 <style>
+	.recipes {
+		font-family: 'Lato', Helvetica, Arial, sans-serif;
+		font-size: 30px;
+		line-height: 1.4;
+		margin: 0;
+		padding: 1em 0.5em;
+		color: #222;
 
-.rg-container {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  line-height: 1.4;
-  margin: 0;
-  padding: 1em 0.5em;
-  color: #222;
-}
-.rg-header {
-  margin-bottom: 1em;
-  text-align: left;
-}
+		display: grid;
+		place-items: center;
 
-.rg-header > * {
-  display: block;
-}
+		resize: both;
+		overflow: auto;
+	}
 
-.rg-source {
-  margin: 0;
-  font-size: 0.75em;
-  text-align: right;
-}
-.rg-source .pre-colon {
-  text-transform: uppercase;
-}
+	.rg-header {
+		margin-bottom: 1em;
+		text-align: left;
+	}
 
-.rg-source .post-colon {
-  font-weight: bold;
-}
+	.rg-header>* {
+		display: block;
+	}
 
-/* table */
-table.rg-table {
-  width: 50%;
-  margin-bottom: 0.5em;
-  font-size: 1em;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-table.rg-table tr {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-align: left;
-  color: #333;
-}
-table.rg-table thead {
-  border-bottom: 3px solid #ddd;
-}
-table.rg-table tr {
-  border-bottom: 1px solid #ddd;
-  color: #222;
-}
-table.rg-table th {
-  font-weight: bold;
-  padding: 0.35em;
-  font-size: 0.9em;
-}
-table.rg-table td {
-  padding: 0.35em;
-  font-size: 0.9em;
-}
-table.rg-table th.number,
-td.number {
-  text-align: right;
-}
+	.rg-source {
+		margin: 0;
+		font-size: 0.75em;
+		text-align: right;
+	}
 
-/* media queries */
-@media screen and (max-width: 800px) {
-  table.rg-table {
-    width: 100%;
-  }
-}
+	.rg-source .pre-colon {
+		text-transform: uppercase;
+	}
 
+	.rg-source .post-colon {
+		font-weight: bold;
+	}
+
+	/* table */
+	table.recipe {
+		width: 80%;
+		margin-bottom: 0.5em;
+		font-size: 1em;
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	table.recipe tr {
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		text-align: left;
+		color: #333;
+	}
+
+	table.recipe thead {
+		border-bottom: 3px solid #ddd;
+	}
+
+	table.recipe tr {
+		border-bottom: 1px solid #ddd;
+		color: #222;
+	}
+
+	table.recipe th {
+		font-weight: bold;
+		padding: 0.35em;
+		font-size: 0.9em;
+	}
+
+	table.recipe td {
+		padding: 0.35em;
+		font-size: 0.9em;
+	}
+
+	table.recipe th.number,
+	td.number {
+		text-align: right;
+	}
 </style>
-<div class='rg-container'>
-	<table class='rg-table' summary=''>
+<div class='recipes'>
+	<table class='recipe'>
 		<thead>
 			<tr>
 				<th class='text '>Sourdough bread</th>
@@ -105,8 +110,8 @@ td.number {
 			</tr>
 		</tbody>
 	</table>
-  <br/>
-  <table class='rg-table' summary=''>
+	<br />
+	<table class='recipe'>
 		<thead>
 			<tr>
 				<th class='text '>Sandwich bread</th>
@@ -125,11 +130,11 @@ td.number {
 				<td class='text ' data-title='Ingridient'>Powdered milk</td>
 				<td class='number ' data-title='Amount'>2tsp</td>
 			</tr>
-      <tr class=''>
+			<tr class=''>
 				<td class='text ' data-title='Ingridient'>Sugar</td>
 				<td class='number ' data-title='Amount'>2 1/2tsp</td>
 			</tr>
-      <tr class=''>
+			<tr class=''>
 				<td class='text ' data-title='Ingridient'>Butter</td>
 				<td class='number ' data-title='Amount'>15g</td>
 			</tr>
@@ -143,8 +148,8 @@ td.number {
 			</tr>
 		</tbody>
 	</table>
-   <br/>
-	<table class='rg-table' summary=''>
+	<br />
+	<table class='recipe'>
 		<thead>
 			<tr>
 				<th class='text '>Sourdough starter</th>
@@ -159,7 +164,7 @@ td.number {
 				<td class='text ' data-title='Ingridient'>Salt</td>
 				<td class='number ' data-title='Amount'>1/2tsp</td>
 			</tr>
-      <tr class=''>
+			<tr class=''>
 				<td class='text ' data-title='Ingridient'>Yogurt</td>
 				<td class='number ' data-title='Amount'>60g</td>
 			</tr>
