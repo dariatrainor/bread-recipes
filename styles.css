@@ -5,10 +5,8 @@
   margin: 0;
   padding: 1em 0.5em;
   color: #222;
-
   display: grid;
   place-items: center;
-
   resize: both;
   overflow: auto;
 }
@@ -52,19 +50,14 @@ table.recipe tr {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
   text-align: left;
-  color: #333;
+  border-bottom: 1px solid #ddd;
+  color: #222;
 }
 
 table.recipe thead {
   border-bottom: 3px solid #ddd;
-}
-
-table.recipe tr {
-  border-bottom: 1px solid #ddd;
-  color: #222;
 }
 
 table.recipe th {
