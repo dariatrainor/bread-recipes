@@ -1,176 +1,100 @@
-<style>
-
-.rg-container {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  line-height: 1.4;
-  margin: 0;
-  padding: 1em 0.5em;
-  color: #222;
-}
-.rg-header {
-  margin-bottom: 1em;
-  text-align: left;
-}
-
-.rg-header > * {
-  display: block;
-}
-
-.rg-source {
-  margin: 0;
-  font-size: 0.75em;
-  text-align: right;
-}
-.rg-source .pre-colon {
-  text-transform: uppercase;
-}
-
-.rg-source .post-colon {
-  font-weight: bold;
-}
-
-/* table */
-table.rg-table {
-  width: 50%;
-  margin-bottom: 0.5em;
-  font-size: 1em;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-table.rg-table tr {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-align: left;
-  color: #333;
-}
-table.rg-table thead {
-  border-bottom: 3px solid #ddd;
-}
-table.rg-table tr {
-  border-bottom: 1px solid #ddd;
-  color: #222;
-}
-table.rg-table th {
-  font-weight: bold;
-  padding: 0.35em;
-  font-size: 0.9em;
-}
-table.rg-table td {
-  padding: 0.35em;
-  font-size: 0.9em;
-}
-table.rg-table th.number,
-td.number {
-  text-align: right;
-}
-
-/* media queries */
-@media screen and (max-width: 800px) {
-  table.rg-table {
-    width: 100%;
-  }
-}
-
-</style>
-<div class='rg-container'>
-	<table class='rg-table' summary=''>
-		<thead>
-			<tr>
-				<th class='text '>Sourdough bread</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class=''>
-				<td class='text '>Bread flour</td>
-				<td class='number '>400g</td>
-			</tr>
-			<tr class=''>
-				<td class='text '>Salt</td>
-				<td class='number '>1tsp</td>
-			</tr>
-			<tr class=''>
-				<td class='text '>Water</td>
-				<td class='number '>150mL</td>
-			</tr>
-			<tr class=''>
-				<td class='text '>Dry yeast</td>
-				<td class='number '>3/4tsp</td>
-			</tr>
-		</tbody>
-	</table>
-  <br/>
-  <table class='rg-table' summary=''>
-		<thead>
-			<tr>
-				<th class='text '>Sandwich bread</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Bread flour</td>
-				<td class='number ' data-title='Amount'>420g</td>
-			</tr>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Salt</td>
-				<td class='number ' data-title='Amount'>1 1/4tsp</td>
-			</tr>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Powdered milk</td>
-				<td class='number ' data-title='Amount'>2tsp</td>
-			</tr>
-      <tr class=''>
-				<td class='text ' data-title='Ingridient'>Sugar</td>
-				<td class='number ' data-title='Amount'>2 1/2tsp</td>
-			</tr>
-      <tr class=''>
-				<td class='text ' data-title='Ingridient'>Butter</td>
-				<td class='number ' data-title='Amount'>15g</td>
-			</tr>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Water</td>
-				<td class='number ' data-title='Amount'>315mL</td>
-			</tr>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Dry yeast</td>
-				<td class='number ' data-title='Amount'>1 1/4tsp</td>
-			</tr>
-		</tbody>
-	</table>
-   <br/>
-	<table class='rg-table' summary=''>
-		<thead>
-			<tr>
-				<th class='text '>Sourdough starter</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Rye flour</td>
-				<td class='number ' data-title='Amount'>80g</td>
-			</tr>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Salt</td>
-				<td class='number ' data-title='Amount'>1/2tsp</td>
-			</tr>
-      <tr class=''>
-				<td class='text ' data-title='Ingridient'>Yogurt</td>
-				<td class='number ' data-title='Amount'>60g</td>
-			</tr>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Water (20C)</td>
-				<td class='number ' data-title='Amount'>80mL</td>
-			</tr>
-			<tr class=''>
-				<td class='text ' data-title='Ingridient'>Dry yeast</td>
-				<td class='number ' data-title='Amount'>0.1g</td>
-			</tr>
-		</tbody>
-	</table>
+<!DOCTYPE html>
+<head>
+  <title>Bread Maker Recipes SD-ZB2512</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<div class="recipes">
+  <table class="recipe">
+    <thead>
+      <tr>
+        <th class="text">Sourdough bread</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="">
+        <td class="text">Bread flour</td>
+        <td class="number">400g</td>
+      </tr>
+      <tr class="">
+        <td class="text">Salt</td>
+        <td class="number">1tsp</td>
+      </tr>
+      <tr class="">
+        <td class="text">Water</td>
+        <td class="number">150mL</td>
+      </tr>
+      <tr class="">
+        <td class="text">Dry yeast</td>
+        <td class="number">3/4tsp</td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+  <table class="recipe">
+    <thead>
+      <tr>
+        <th class="text">Sandwich bread</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Bread flour</td>
+        <td class="number" data-title="Amount">420g</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Salt</td>
+        <td class="number" data-title="Amount">1 1/4tsp</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Powdered milk</td>
+        <td class="number" data-title="Amount">2tsp</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Sugar</td>
+        <td class="number" data-title="Amount">2 1/2tsp</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Butter</td>
+        <td class="number" data-title="Amount">15g</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Water</td>
+        <td class="number" data-title="Amount">315mL</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Dry yeast</td>
+        <td class="number" data-title="Amount">1 1/4tsp</td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+  <table class="recipe">
+    <thead>
+      <tr>
+        <th class="text">Sourdough starter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Rye flour</td>
+        <td class="number" data-title="Amount">80g</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Salt</td>
+        <td class="number" data-title="Amount">1/2tsp</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Yogurt</td>
+        <td class="number" data-title="Amount">60g</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Water (20C)</td>
+        <td class="number" data-title="Amount">80mL</td>
+      </tr>
+      <tr class="">
+        <td class="text" data-title="Ingridient">Dry yeast</td>
+        <td class="number" data-title="Amount">0.1g</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
